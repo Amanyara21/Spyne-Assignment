@@ -28,9 +28,9 @@ const createUser = async (req, res) => {
         res.cookie("auth-token", token, {
             path: "/",
             expires: new Date(Date.now() + (7 * 86400000)),
-            // secure: true,
-            // httpOnly: true,
-            // sameSite: "None",
+            secure: true,
+            httpOnly: true,
+            sameSite: "None",
         });
 
         res.status(200).send({ "token": token })
@@ -62,9 +62,9 @@ const loginUser = async (req, res) => {
         res.cookie("auth-token", token, {
             path: "/",
             expires: new Date(Date.now() + (7 * 86400000)),
-            // secure: true,
-            // httpOnly: true,
-            // sameSite: "None",
+            secure: true,
+            httpOnly: true,
+            sameSite: "None",
         });
         
 
