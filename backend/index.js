@@ -9,6 +9,7 @@ dbConfig();
 
 const userRoute = require('./routes/userRoute');
 const carRoute = require('./routes/carRoute');
+const docRoute = require('./routes/docRoute');
 
 const app = express();
 
@@ -17,6 +18,7 @@ app.use(cors({
   credentials: true, 
   optionsSuccessStatus: 200 
 }));
+// app.use(cors());
 
 
 app.use(bodyParser.json({ limit: '50mb' }));
@@ -25,7 +27,8 @@ app.use(cookieParser());
 
 app.use('/api/', 
     userRoute,
-    carRoute
+    carRoute,
+    docRoute
 );
 
 const port = 5000;
