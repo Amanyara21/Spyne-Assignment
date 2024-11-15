@@ -20,11 +20,10 @@ Before getting started, ensure you have the following installed:
 First, clone the repository to your local machine.
 
 ```bash
-git clone <repo-url>
-cd <repo-name>
+git clone https://github.com/Amanyara21/Spyne-Assignment
+cd Spyne-Assignment
 ```
 
-Replace `<repo-url>` with the URL of the repository and `<repo-name>` with the name of the project folder.
 
 ### Step 2: Frontend Setup
 
@@ -96,11 +95,6 @@ Once both frontend and backend servers are running:
 - Visit the frontend at [http://localhost:5173](http://localhost:5173).
 - The application should be fully functional, allowing you to interact with the car library.
 
-## Features
-
-- **Car Management**: Add, update, and delete car records.
-- **User Authentication**: JWT-based authentication for secure access.
-- **Responsive UI**: Built with React and styled for a smooth user experience.
 
 ## Technologies Used
 
