@@ -98,20 +98,7 @@ Once both frontend and backend servers are running:
 
 ## Technologies Used
 
-- **Frontend**: React, Vite, Axios
+- **Frontend**: React, Vite
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
 - **Authentication**: JWT (JSON Web Tokens)
-
-## Troubleshooting
-
-- If you encounter any issues, ensure that MongoDB is running locally or properly configured if using a remote MongoDB instance.
-- Double-check the `.env` files for both the frontend and backend to ensure the environment variables are set correctly.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to modify this based on any additional details or specific instructions for your project!
